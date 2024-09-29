@@ -285,7 +285,6 @@ background: orange;
 button.cta-button {
 font-size: 16px;
 line-height: 16px;
-
 padding: 18px 42px;
 border-radius: 0;
 font-family: 'Raleway';
@@ -298,6 +297,28 @@ button.cta-button:hover{
 background:#ffd383;
 color:#000;
 }
+
+a.cta-button {
+    background: orange;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 18px 42px;
+    border-radius: 30px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    margin-top:20px;
+    transition: background 0.3s, border-color 0.3s;
+    color: #000;
+    text-decoration: none;
+    display: inline-block; 
+}
+
+a.cta-button:hover {
+    background: #ffd383;
+    color: #000;
+}
+
+
 /* Misc
 ----------------------------------------------------------------------------- */
 .no-view {
@@ -1044,4 +1065,64 @@ z-index: -1;}
    text-align:center;
    font-weight:bold;
 }
+
+
+/* Cookie Banner Styling */
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(34, 34, 34, 0.95);
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    display: none; /* Hidden by default */
+}
+
+.cookie-banner p {
+    margin: 0;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size:14px!important;
+}
+
+.cookie-buttons {
+    margin-top: 10px;
+}
+
+.cookie-banner .btn {
+    background: orange;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    transition: background 0.3s, border-color 0.3s;
+    color: #000;
+    margin: 0 10px;
+}
+
+.cookie-banner .btn:hover {
+    background: #ffd383;
+    color: #000;
+}
+
+
+.cookie-banner .btn {
+    background: orange;
+    font-size: 14px; 
+    line-height: 14px;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    transition: background 0.3s, border-color 0.3s;
+    color: #000;
+    margin: 0 10px;
+}
+
+
 
